@@ -1,0 +1,42 @@
+# 忽略 IDEA 的编译输出目录
+out/
+
+# 忽略 Maven 的构建输出目录
+target/
+
+.idea/
+pom.xml
+
+# ===================== Eclipse IDE 忽略 =====================
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+*.launch
+.loadpath
+.externalToolBuilders/
+.recommenders/
+.factorypath
+
+# ===================== Java编译产物 =====================
+*.class
+hs_err_pid*
+
+# ===================== Maven项目 =====================
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+
+# ===================== 临时、日志、压缩包 =====================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# ===================== 系统文件 =====================
+.DS_Store
+Thumbs.db
